@@ -1,0 +1,31 @@
+* {
+    padding: 0 px;
+    margin: 0 px;
+}
+#navbar {
+    background-color: black;
+    height:50px;
+    text-align: center;
+    align-items: center;
+    display:flex;
+}
+#logo {
+    color:brown;
+    font-size:25px;
+}
+a {
+    color:white;
+    text-align: centre;
+    margin-right:180px;
+}
+button {
+    color:blue;
+    text-align: center;
+    background-color:burlywood;
+}
+
+input {
+    text-align:center;
+    color:chartreuse;
+    background-color:white;
+}
