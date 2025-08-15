@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sujit Chaudhary_Landing Page</title>
+<style>
+    * {margin:0;padding:0;box-sizing:border-box;}
+    body {
+        font-family: Arial, sans-serif;
+        color: #fff;
+      background: linear-gradient(-45deg, #0a0a0a, #1a1a40, #3b1d5a, #4b0082, #2b4f81, #1e3c72);
+        background-size: 400% 400%;
+        animation: gradientShift 5s ease infinite;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    @keyframes gradientShift {
+        0% {background-position: 0% 50%;}
+        50% {background-position: 100% 50%;}
+        100% {background-position: 0% 50%;}
+    }
+
+    header {
+        padding: 1rem 5%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: rgba(0,0,0,0.5);
+        backdrop-filter: blur(10px);
+    }
+    header h1 {
+        font-size: 1.3rem;
+    }
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        margin-left: 1.5rem;
+        font-size: 0.9rem;
+    }
+    nav a:hover { color: #4ecdc4; }
+
+    .content {
+        display: flex;
+        flex: 1;
+        padding: 1rem 2rem;
+        align-items: center;
+        justify-content: space-around;
+        gap: 2rem;
+    }
+    .profile {
+        text-align: center;
+    }
+  .profile img {
+    width: 220px;
+    height: 220px; /* same as width */
+    border-radius: 50%;
+    border: 4px solid #fff;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+    .profile h2 {
+        font-size: 1.3rem;
+        margin-bottom: 0.5rem;
+    }
+    .profile p {
+        font-size: 0.9rem;
+        max-width: 320px;
+        margin: auto;
+    }
+
+  .about {
+    background: rgba(0, 102, 204, 0.9); /* semi-transparent blue */
+    color: #fff; /* white text for contrast */
+    padding: 1.5rem;
+    border-radius: 15px;
+    max-width: 420px;
+}
+
+    .about h3 {
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+    }
+    .about p {
+        font-size: 0.85rem;
+        line-height: 1.4;
+        margin-bottom: 1rem;
+    }
+    .btn {
+        display: inline-block;
+        padding: 0.5rem 1.5rem;
+        background: #4ecdc4;
+        color: #000;
+        border-radius: 50px;
+        text-decoration: none;
+        font-size: 0.85rem;
+        font-weight: bold;
+    }
+    .btn:hover { background: #45b7d1; }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Sujit Chaudhary</h1>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<div class="content">
+    <div class="profile">
+        <img src="Myphoto.jpg" alt="Sujit Chaudhary">
+        <h2>Fullstack Developer</h2>
+        <p>Hi, I am a Professional Fullstack Developer having skills of HTML, CSS, JAVASCRIPT, SQL and MongoDB </p>
+        <br>
+        <a href="#" class="btn">Hire Me</a>
+    </div>
+    <div class="about">
+        <h3>About Me</h3>
+        <p>I am a passionate Fullstack Developer with expertise in HTML, CSS, JavaScript, SQL, and MongoDB. I specialize in building dynamic, responsive, and user-friendly web applications from the ground up. With a strong foundation in both front-end and back-end development, I can seamlessly connect design and functionality to deliver high-quality, scalable solutions. My goal is to create impactful digital experiences that meet client needs and exceed expectations.</p>
+        <a href="#" class="btn">Download Resume</a>
+    </div>
+</div>
+
+</body>
+</html>
